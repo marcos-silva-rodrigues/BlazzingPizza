@@ -61,6 +61,14 @@ public static class SeedData
                 BasePrice = 9.99m,
                 ImageUrl = "img/pizzas/margherita.jpg",
             },
+            new PizzaSpecial()
+            {
+                Id = 9,
+                Name = "Portuguesa",
+                Description = "It's cheesy and delicious. Why wouldn't you want one?",
+                BasePrice = 9.99m,
+                ImageUrl = "img/pizzas/cheese.jpg",
+            },
         };
         db.Specials.AddRange(specials);
         db.SaveChanges();
